@@ -13,9 +13,9 @@ int main()
     int row = 1;
     int count = 1;
     int n,col;
-    cin>>n;
+    cin>>n;  // input can be the row number also
 
-    while(row<n)
+    while(count<=n)
     {
         col = 1;
         while(col<row)
