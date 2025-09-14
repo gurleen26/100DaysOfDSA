@@ -3,5 +3,6 @@
     "code-runner.runInTerminal": true,
     "code-runner.showRunIconInEditorTitleMenu": true,
     "code-runner.showRunCommandInExplorerContextMenu": true,
-    "code-runner.showRunCommandInEditorContextMenu": true
+    "code-runner.showRunCommandInEditorContextMenu": true,
+    "debug.console.acceptSuggestionOnEnter": "on"
 }
