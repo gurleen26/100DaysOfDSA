@@ -3,18 +3,11 @@ using namespace std;
 
 int main()
 {
-    int n = 234;
-    int sum = 0;
-    int prod = 1;
-    while(n!=0)
-    {
-        int a = n%10; 
-        sum += a;
-        prod *= a;
-        cout<<n<<" ";
-        n = n/10;
-    }
-    cout<<sum<<" "<<prod;
-    cout << prod-sum;
+    int arr[] = {1,2,2,1,1,3};
+    int a,b,c;
 
+    for(int i=0;i<6;i++)
+    {
+        cout<<arr[i]<<" ";
+    }
 }
