@@ -1,3 +1,5 @@
+// NO. of 100,50,20,1 notes in an amount using switch case
+
 #include <iostream>
 using namespace std;
 
