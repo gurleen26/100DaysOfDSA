@@ -1,0 +1,85 @@
+class Solution {
+public:
+int removeElement(vector<int>& nums, int val) {
+int n = nums.size();
+int j = 0;
+
+// Applying Backward-pushing trick
+for(int i = 0; i<n; i++) {
+if (nums[i] != val) {
+int temp = nums[i];
+nums[i] = nums[j];
+nums[j] = temp; //direct: swap(nums[i], nums[j])
+j++;
+}
+}
+return j;
+
+}
+};
+//T.C.: O(n) , S.C.: O(1)
+
+
+1. Merge Two Sorted Arrays : https://leetcode.com/problems/merge-sorted-array/
+class Solution {
+public:
+void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
+int i=m-1; //last index of original nums1 array
+int j=n-1; //last index of nums2 array
+
+int k = m+n-1;
+
+// last index of answer array( nums1 itself (including zeros)
+// in our case)
+
+
+while(i>=0&&j>=0){
+if(nums1[i]>nums2[j]){
+nums1[k]=nums1[i];
+i--;
+k--;
+}
+
+else if(nums2[j]>=nums1[i]){
+nums1[k]=nums2[j];
+j--;
+k--;
+}
+
+}
+
+//not necessary
+while(i>=0){
+nums1[k]=nums1[i];
+k--;
+i--;
+}
+
+while(j>=0){
+nums1[k]=nums2[j];
+k--;
+j--;
+}
+}
+};
+// nums1 =[1,2,3,0,0,0]
+// nums2 = [2,5,6]
+
+// res = [1,2,3,2,5,6]
+// sort it.
+// res = [1,2,2,3,5,6]
+
+// nums1[i] = res[i];
+
+// i k j
+// Input: nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3
+// Output: [1,2,2,3,5,6]
+
+// 1,2,3 -> nums1
+// 2,5,6 -> nums2
+// k
+// nums1= [1,2,2,3,5,6]
+// nums2 = [2,5,6]
+
+
+//T.C.: O(m+n), S.C.: O(1)
