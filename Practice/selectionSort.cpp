@@ -1,24 +1,20 @@
 #include <iostream>
 using namespace std;
 
-void bubbleSort(int arr[], int n) // O(n2)
+void selectionSort(int arr[], int n) 
 {
     for(int i=0;i<n;i++)
     {
-        bool isSwap = false;
-        for(int j=0;j<n-i-1;j++)
+        int smallestInd = i;
+        for(int j=i+1;j<n;j++)
         {
-            if(arr[j] > arr[j+1])
+            if(arr[j] < arr[smallestInd])
             {
-                swap(arr[j],arr[j+1]);
-                isSwap = true;
+                smallestInd = j;
             }
         }
-        if(!isSwap)
-        {
-            return;
-        }
-    }
+        swap(arr[i],arr[smallestInd]);
+    }   
 }
 
 void printArray(int arr[], int n)
@@ -33,7 +29,7 @@ int main()
 {
     int n = 5;
     int arr[] = {4,1,5,2,3};
-    bubbleSort(arr,n);
+    selectionSort(arr,n);
     printArray(arr,n);
     
     return 0;
