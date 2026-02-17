@@ -1,0 +1,229 @@
+⭐ Your 40-DAY DSA MASTER PLAN
+PHASE 1 — Foundations (Day 1–10)
+
+Goal → Build confidence & logic with easiest core patterns.
+
+Day 1–2: Arrays
+
+Prefix sum
+
+Sliding window basics
+Solve:
+
+Two Sum
+
+Best Time to Buy Sell Stock
+
+Max Subarray (Kadane)
+
+Sliding window (max sum subarray of size k)
+
+Day 3–4: Strings
+
+Basic string manipulation
+
+Hashing, maps
+Solve:
+
+Valid Anagram
+
+Isomorphic Strings
+
+Longest substring without repeating characters
+
+Day 5–6: Searching (Binary Search on Answers)
+
+Classic binary search
+
+“Split array largest sum” type
+Solve:
+
+Binary search
+
+First and last position
+
+Allocate books
+
+Split array largest sum
+
+Day 7–8: Sorting & Two Pointers
+
+Merge, quick
+
+Two pointer patterns
+Solve:
+
+Sort Colors
+
+3Sum
+
+4Sum
+
+Pair with target sum
+
+Day 9–10: Recursion Basics
+
+How recursion works
+
+Backtracking intro
+Solve:
+
+Subsets
+
+Permutations
+
+Generate parentheses
+
+PHASE 2 — Core DSA (Day 11–25)
+Day 11–13: Linked Lists
+
+Slow/Fast pointers
+
+Reverse
+
+Cycle detection
+Solve:
+
+Reverse LL
+
+Detect cycle
+
+Reorder list
+
+Merge two sorted lists
+
+Day 14–17: Stacks & Queues
+
+Stack patterns
+
+Monotonic stack
+Solve:
+
+Valid parentheses
+
+Min stack
+
+Next greater element
+
+Daily temperatures
+
+Day 18–22: Trees
+
+DFS/BFS
+
+Binary Tree basics
+Solve:
+
+Inorder, preorder, postorder
+
+Diameter of tree
+
+Level order
+
+Zigzag
+
+Path sum
+
+Day 23–25: BST + Heaps
+
+Heap logic
+
+Priority queues
+Solve:
+
+Kth largest
+
+Merge k sorted lists
+
+Median from data stream
+
+PHASE 3 — Advanced Logic (Day 26–40)
+Day 26–30: Dynamic Programming BEGINNER
+
+Fibonacci DP
+
+Climbing stairs
+
+House robber
+
+Subset sum
+Goal: understand patterns, not formulas.
+
+Day 31–35: Graphs
+
+BFS, DFS
+
+Cycle detection
+Solve:
+
+Number of islands
+
+Clone graph
+
+Rotten oranges
+
+Graph path existence
+
+Day 36–38: DP INTERMEDIATE
+
+LCS
+
+LIS
+
+0/1 knapsack
+Solve each with tabulation + memoization
+
+Day 39–40: Contest-style Problems
+
+Just practice full problems:
+
+Prefix + map
+
+Graph + BFS
+
+Binary search + greedy
+
+⭐ DAILY ROUTINE (Very Simple)
+⏱️ 1 hour — Learn one concept
+
+Use:
+
+YouTube (Kunal Kushwaha, Code Library, Take U Forward)
+
+⏱️ 1 hour — Solve 4–5 problems
+
+Start from easy → medium.
+
+⏱️ 10 minutes — Revision
+
+Re-solve one old problem WITHOUT looking at notes.
+
+⭐ How you will improve logic
+
+Understand the pattern, not the question
+Example → Split Array Largest Sum = “Binary Search on Answer + Greedy check”
+
+Stop watching full solutions
+Only watch 20–30 sec hint → try → if stuck → then see.
+
+Dry run on paper
+You already saw how my drawings helped you in partition problems.
+
+Ask why? for every step
+ex: “Why am I checking sum <= mid?”
+
+Solve variations
+Every question belongs to 1 pattern.
+Solve 3–4 from the same pattern.
+
+⭐ Gurleen, this plan will work for you
+
+Because:
+
+You ask good questions
+
+Your basics are fine
+
+You understand fast when explained
+
+You only need structure + consistency
